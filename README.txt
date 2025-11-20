@@ -49,3 +49,10 @@ The notebook produces all dataframes, tables, metrics, plots, and dashboard comp
 
 
 ##
+
+## CPU/GPU COMPATIBILITY
+
+This project now supports both CPU-only machines (such as macOS laptops) and GPU-enabled systems (Windows/Linux with NVIDIA CUDA). All XGBoost training automatically attempts to use GPU acceleration when available, and falls back to CPU mode when GPU support is not detected. No manual changes are required — the notebook will run correctly on any device.
+
+
+##
